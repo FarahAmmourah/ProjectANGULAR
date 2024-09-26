@@ -1,0 +1,47 @@
+body {
+  background-color: #fafafa; /* Lighter light gray */
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  padding: 5px 15px;
+  width: 250px;
+  background-color: #f8f9fa;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  flex: 1;
+  background-color: transparent;
+  padding-left: 10px;
+}
+
+.search-bar i {
+  color: green;
+}
+
+.strong-dark-gray {
+  font-weight: bold;
+  color: #272727;
+}
+
+.vacation-card .card {
+  background-color: #f8f9fa; /* Light gray background */
+  border: none; /* Remove border if needed */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  transition: box-shadow 0.3s ease; /* Smooth shadow effect on hover */
+}
+
+.vacation-card .card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Slightly larger shadow on hover */
+}
+
+.vacation-card img {
+  border-radius: 50%; /* Make sure images stay circular */
+  object-fit: cover; /* Ensure the image is cropped correctly */
+}
